@@ -5,43 +5,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df28a78-aab4-4ede-877e-7fac4f0bc446" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Spring-Boot-API.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/controller/MedicoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/corsConf/CorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/endereco/DadosEndereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/endereco/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/medico/DadosAtualizacaoMedico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/medico/DadosCadastroMedico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/medico/DadosListagemMedico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/medico/DadosListagemMedicoPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/medico/Especialidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/medico/Medico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/medico/MedicoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V1_create-table-medicos.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V2__alter-table-medicos-add-coluna-telefone.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V3__alter-table-medicos-add-coluna-ativo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voli/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voli/api/ApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LeandroAmaralC&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LeandroAmaralC/Spring-Boot-API.git&quot;,
+    &quot;accountId&quot;: &quot;634d8c4b-43a0-468a-97c2-290524be066c&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/api/pom.xml" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2uoupasFzJJZWjQIGnvjuhMs0hB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lcorr/OneDrive/Área de Trabalho/Projetos/2700-spring-boot-aula_1",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/lcorr/OneDrive/Área de Trabalho/Projetos/Java2025/Spring-Boot-API/api/api/src/main/java/med/voli/api&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lcorr/OneDrive/Área de Trabalho/Projetos/Java2025/Spring-Boot-API/api/api/src/main/resources/db/migration&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="med.voli.api.medico" />
+      <recent name="med.voli.api.endereco" />
+      <recent name="med.voli.api.modico" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lcorr\OneDrive\Área de Trabalho\Projetos\Java2025\Spring-Boot-API\api\api\src\main\resources\db\migration" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="med.voli.api.ApiApplication" />
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="med.voli.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,5 +132,16 @@
       <updated>1742927433052</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/med/voli/api/medico/DadosCadastroMedico.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
